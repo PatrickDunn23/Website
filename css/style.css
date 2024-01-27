@@ -1,0 +1,647 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Alike&family=Knewave&family=Lato:ital,wght@0,700;1,400&family=Lekton&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  /* Header Section................. */
+
+  header{
+    display: flex;
+    top: 0;
+    height: 120px !important;
+    width: 100%;
+    z-index: 1000;
+    background: rgba(241, 240, 242, 0.60);
+    backdrop-filter: blur(10px);
+    position: fixed;
+    }
+
+  .headerContents{
+    display: flex;
+    vertical-align: top;  
+    justify-content: space-between; 
+    color: #000 !important;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    text-transform: capitalize;
+    margin-left: 60px;
+    margin-right: 60px;
+    height:120px;
+    align-items: center;
+   }
+a{
+       text-decoration: none !important;
+       color: black !important;
+        
+}
+
+.headerSpacing{
+    align-items: center;
+}
+.headerSpacing :hover{
+    animation: spin 0.5s infinite;
+    animation-timing-function: linear;
+}
+
+.head{
+    width: 100%;
+}
+
+.navoptions{
+    padding-left: 50px;
+   
+  
+}
+
+.navoptions:hover{
+    text-shadow:  0px 0px 7px #EF9A63; 
+}
+
+  /* Body Section................. */
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.button{
+    color: black;
+    font-size: 16px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    word-wrap: break-word;
+    width: 150px;
+    height: 50px;
+    flex-shrink: 0;
+}
+/* Homepage ................. */
+.heroimg{
+    background-image: url(../images/homepagehero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 130vh;
+    margin-bottom: 50px;
+   
+}
+
+.heroPadding{
+    padding-top:  150px;
+    margin-left: 60px;
+    margin-right: 60px;
+    display: flex;
+}
+
+h1{
+    align-items: center;
+    flex-shrink: 0;
+    color: #EF9A63;
+    font-family: 'Knewave', system-ui;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+
+}
+
+.h1dark{
+    color: #BF5C3D;
+    padding-left: 10px;
+}
+
+h2{
+    color: #000;
+    font-family: 'Alike', serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.2px;
+ 
+}
+.hometext{
+    max-width: 800px;
+    margin-left: 60px;
+    transform: translateY(-370px);
+    align-items: center;
+    flex-shrink: 0;
+    margin-right: 60px;
+}
+
+.headerPadding{
+    margin-top: 150px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 100px;
+}
+
+.backgroundPadding{
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 100px;
+}
+.squiggle{
+    display: flex;
+    width: 100%;
+    transform: translateY(-120px);
+}
+/* About Page................. */
+.hrabout{
+    background-color: black;
+    height: 2px;
+    width: 100%; 
+}
+
+.flexContainer{
+    display: flex; 
+    justify-content: space-between;
+    
+    
+}
+
+.metext{
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.6px;
+    width: 30%;
+}
+
+  .flex_item {
+    margin-top: 30px;
+  }
+  .profilePic{
+    margin-left: 30px; 
+    width: 70%;
+    background-image: url(../images/A000453-R1-02-1A.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+}
+
+  .container{
+    position: relative;
+  }
+
+  .backgroundText{
+    color: #000;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    margin-top: 30px;
+   
+  }
+
+  .resumeSpacing{
+    margin-left: 60px;
+    margin-right: 60px;
+    width: calc(100% - 120px);
+    height: 200px;
+}
+
+/* Work Page................. */
+.casestudy{
+    width: cover;
+    display: grid;
+    grid-template-columns: 30% 70% ;
+    padding: 2%;
+}
+.caseIntro{
+    display: flex; 
+    justify-content: space-between;
+    margin-top: 150px;
+    min-height: 65vh;
+}
+
+.hrcase{
+    background-color: black;
+    height: 2px;
+    width: calc(100% - 120px);
+    position: absolute;
+    margin-left: 60px;
+}
+
+.WorkGrid{
+    width: cover;
+    display: grid;
+    grid-template-columns: 30% 70% ;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-top: 50px;
+    margin-bottom: 50px;  
+}
+
+.gridRows{
+    display: grid;
+    grid-template-rows: auto auto auto  ;
+}
+
+.caseimage{
+   width: 100%;
+   padding-left: 0px;
+   border-radius: 5px;
+}
+
+.skills{
+  padding-top: 10px;
+
+}
+
+h4{
+    color: #000;
+    font-family: 'Lato', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.6px;
+    text-transform: capitalize;
+    padding-right: 50px;
+}
+
+.caseButton{
+    display: flex;
+    justify-content: flex-start;
+    align-items: end;
+}
+
+  /* Footer Section................. */
+ .name{
+    margin-top: 50px;
+    
+ }
+ .footerContact{
+    margin-top: 50px;
+    padding-left: 50px;
+ }
+
+ .hrfooter{
+    background-color: black;
+    height: 2px;
+    width: calc(100% - 120px);
+    bottom: 0;
+    margin-left: 60px;
+    
+   
+}
+
+.footer {
+    position: relative;
+    min-height: 300px;
+    z-index: 1;
+    
+}
+footer {
+    min-height: 300px; 
+    
+}
+.footerBackground {
+
+    background-image: url(../images/Mask\ group.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px; 
+
+    position: relative;
+    z-index: 1;
+
+}
+
+.homefooterBackground {
+
+    background-image: url(../images/homepagerfooterimage.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px; 
+    position: relative;
+    z-index: 1;
+
+}
+.footerlogo{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 60px;
+    margin-top: 50px;
+    width: 80px;
+    position: absolute;
+}
+
+.footername{
+    display: flex;
+    vertical-align: top;  
+    justify-content: space-between; 
+    color: #000;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+ul li {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.spinMe {
+    animation: spin 2s infinite;
+    animation-timing-function: linear;
+
+  }
+/* Contact Section................. */
+
+.contactItems{
+    display: flex;
+    color: #000;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    margin-top: 30px;
+    padding-bottom: 3px;
+}
+
+.contactText{
+    padding-left: 30px;
+}
+
+.whaleImage{
+max-width: 70%;
+padding-top: 20px;
+}
+.whalediv{
+
+  display: flex;
+  justify-content: end;
+}
+
+
+
+
+      .active{
+        color: #EF9A63;
+    }
+/* Resume overlay changes................. */
+
+      *, *::after, *::before {
+        box-sizing: border-box;
+      }
+      
+      .modal {
+        position: fixed;
+        top: 30%;
+        left: 50%;
+        margin-top: 180px;
+        height: 70%;
+        transform: translate(-50%, -50%) scale(0);
+        transition: 200ms ease-in-out;
+        z-index: 10;
+        width: 500px;
+        max-width: 80%;
+        display: flex;
+        justify-content: space-between;
+    
+      }
+
+       .resumeDownload{
+        padding-left: 20px;
+       }
+      
+
+
+      .modal.active {
+        transform: translate(-50%, -50%) scale(1);
+      }
+      
+      .modal-header {
+        padding: 10px 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        align-items: center;
+        border-bottom: 1px solid black;
+      }
+      
+      .modal-header .title {
+        font-size: 1.25rem;
+        font-weight: bold;
+      }
+      
+      .close-button {
+        cursor: pointer;
+        border: none;
+        outline: none;
+        background: none;
+        font-size: 3.25rem;
+        font-weight: bold;
+        padding-left: 30px;
+        align-items: baseline;
+        align-self: flex-start;
+    
+      }
+      
+      .modal-body {
+        padding: 10px 15px;
+      }
+      
+      #overlay {
+        position: fixed;
+        opacity: 0;
+        transition: 200ms ease-in-out;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, .5);
+        backdrop-filter: blur(10px);
+        pointer-events: none;
+      }
+      
+      #overlay.active {
+        opacity: 1;
+        pointer-events: all;
+      }
+     
+      .resume{
+        width: 550px;
+        height: auto;
+      }
+
+      /* Unit 20 Bootstrap................. */
+      .caseHead{
+        margin-top: 150px;
+        margin-left: 60px;
+        margin-right: 60px;
+      }
+
+
+      .marginc{
+margin-left: 60px;
+margin-right: 60px;      }
+
+.caseAbout{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.caseh{
+  width: 70%;
+  height: auto;
+}
+
+.cardBg{
+background-color:  #A5C6BD  !important;
+
+}
+.cardPadd{
+  padding-right: 50px;
+ 
+}
+
+
+.projectInfo{
+  color: #000;
+  font-family:  'Lato', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-bottom: 200px;}
+
+
+
+
+
+
+
+
+
+
+
+  /* Animations and media................. */
+  @keyframes spin {
+    from {transform: rotate(180deg);
+  
+    }
+    to {transform: rotate(-180deg);
+  
+    }}
+
+ @media screen and (max-width:600px) {
+    /* Flex changes................. */   
+    .flexContainer{
+            display: flex;
+            flex-direction: column;
+        }
+        .metext{
+            color: black;
+            font-family: 'Lato', sans-serif;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: 1.6px;
+            width: 100%;
+        }
+        
+        .profilePic{
+            width: 100%;
+            background-image: url(/images/A000453-R1-02-1A.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 40vh;
+            margin-left: 0px;
+        }
+   
+    /* Grid changes................. */
+    .WorkGrid{
+        width: cover;
+        display: grid;
+        grid-template-rows: 100% 100% 100% cover ;
+        grid-template-columns: 1fr;
+        margin-left: 60px;
+        margin-right: 60px;
+        padding-top: 50px;
+        margin-bottom: 50px;  
+    }
+    .caseimage{
+        padding-left: 0px;
+        border-radius: 5px;
+        
+        
+       
+     }
+     .cardPadd{
+      padding-right: 0px;
+    }
+
+    
+}
+
+
+
+
+@media screen and (max-width:1000px) {
+  /* Flex changes................. */   
+  h4{
+    color: #000;
+    font-family: 'Lato', sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.6px;
+    text-transform: capitalize;
+    padding-right: 50px;
+}
+      }
+
+      h3{
+        color: black;
+
+font-family: 'Lato', sans-serif;
+font-size: 65px !important;
+font-style: normal;
+font-weight: 500 !important;
+line-height: normal !important;
+letter-spacing: 1.8px;
+text-transform: capitalize;
+      }
+
+      .wetlandFooterBackground {
+
+        background-image: url(../images/Wetland-footer.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 300px; 
+        position: relative;
+        z-index: 1;
+
+      }
+      .italic{
+        font-style: italic;
+      }

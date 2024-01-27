@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+        <title>
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+    <body>
+    
+         <!--  My UX Skills section coded using CSS flex -->
+    <!--Header and Nav       -->
+    <header>
+     
+        <div class="head">
+            <ul class="headerContents">
+                    <div class="headerSpacing">
+                        <a href="index.html"><img src="images/New Logo.svg" alt=""></a>
+                    </div>
+                    <div >
+                        <li class="navoptions"> <a href="work.html">Work</a></li>
+                        <li class="navoptions"><a href="about.html" class="active">About</a></li>
+                        <li class="navoptions"><a href="contact.html">Contact</a></li>
+                    </div>
+                  
+                </ul>            
+            </div>
+        </header>
+        
+        <!--Me Section     -->
+    <div>
+        <section class="headerPadding">
+            <div>
+             
+                <h4 > Me </h4>
+        
+                <hr class="hrabout">
+                <div class="flexContainer">
+                    <div class="metext flex_item">
+                        <p>I collaborate closely with my clients, establishing relationships based on trust that spark and motivate a collective long-term vision.</p>
+                        <br>
+                        <p>This involves delving deeply into their mission, understanding it thoroughly, and determining the most effective ways to enhance their customer's experience.</p>
+                    </div>
+                    <div class="flex_item profilePic">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+        <!--Background Section     -->
+        <div >
+            <section class="backgroundPadding">
+                <div>
+                    <h4> Background </h4>
+                    <hr class="hrabout">
+                    <div class="backgroundText">
+                        <p> Hailing from the rural mid-north coast of NSW, my roots instilled in me a profound sense of adventure and a pragmatic approach to life. I embody the spirit of a compulsive creator, constantly immersed in diverse projects that span the spectrum of creativity and hands-on craftsmanship, ranging from film photography to welding and graphic design. </p>
+                        <br>
+                        <p>   Fueling my inquisitive nature, I pursued studies in Industrial Design, subsequently delving into a fulfilling career in the field. My professional journey has been marked by involvement in a multitude of exciting projects, particularly within the realm of medical design. However, the intersection of travel and the global pandemic redirected my path into healthcare roles over the past three years. </p>
+                            <br>
+                        <p>  Now, having navigated the challenges of the pandemic and accrued valuable experience in healthcare, I find myself drawn back to my true passion—design. Recently completing an intensive boot camp in UX/UI design, I am now eager to explore fresh opportunities within this dynamic and evolving space. My unique blend of practicality, creativity, and hands-on experience positions me as a versatile candidate ready to contribute to innovative design solutions. </p> 
+                    </div>
+                </div>
+            </section>
+        </div>
+        
+        <!--Resume Section     -->
+        <div class="resumeSpacing resumeButton">
+            <h4> Resume </h4>
+            <hr class="hrabout">
+            <button data-modal-target="#modal" class="button resumeButton">See Resume</button>
+    </div>
+
+    
+          <!--Footer section        -->  
+          <footer>
+            <div class="homefooterBackground">
+            <div class="footername">
+                    <div class="name">
+                        Patrick Dunn
+                    </div>
+                    <ul>
+                        <li class="footerContact">patrickdunn23@gmail.com</li>
+                        <li class="footerContact">Linkedin</li>
+                        <li class="footerContact">© Code by Patrick </li>
+                    </ul> 
+                </div>
+                <hr class="hrfooter">
+            <div class="footerlogo spinmMe ">
+                <img class="spinMe" src="images/New Logo-Black.svg" alt="">
+            </div>
+        </footer>
+           <!--JS overlay     -->
+          
+            <div class="modal" id="modal">
+                <img class="resume"  src="images/Resume.svg" alt="resume Image Missing">
+                
+                <div class="exitDownload">
+                    <button data-close-button class="close-button">&times;</button>
+                    <div class="resumeDownload">  <a href="Patrick Dunn Resume.pdf"><img src="images/Download.svg" alt=""></a></div>
+                </div>
+            </div>
+            <div id="overlay"></div>        
+        </footer>
+    </body>
+<script src="js/index.js"></script>
+</html>
