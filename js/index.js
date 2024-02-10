@@ -34,3 +34,6 @@ function closeModal(modal) {
   modal.classList.remove('active')
   overlay.classList.remove('active')
 }
+
+/* Menu................. */
+$(".hamburger").on("click", function(){;
