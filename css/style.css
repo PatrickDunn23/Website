@@ -680,3 +680,36 @@ text-transform: capitalize;
       .italic{
         font-style: italic;
       }
+
+
+      .mobileMenu {
+        position: fixed;
+        top: 0;
+        right: 0;
+        background-color: black;
+        z-index: 1;
+        padding: 15px;
+        width: 100%;
+        height: 0vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all .5s ease;
+      }
+      #mobileList {
+        display: flex;
+        flex-direction: column;
+        opacity: 0;
+        color: white;
+        transition: all .5s ease;
+      }
+      .searchBar button {
+        background-color: orange !important;
+        width: 100%;
+      }
+      .searchButton {
+        position: relative;
+      }
+      .x_button {
+      
+      }
