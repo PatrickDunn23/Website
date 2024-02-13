@@ -98,6 +98,8 @@ body{
     margin-left: 60px;
     margin-right: 60px;
     display: flex;
+    width: 100%;
+    background-color: red;
 }
 
 h1{
@@ -136,6 +138,7 @@ h2{
     align-items: center;
     flex-shrink: 0;
     margin-right: 60px;
+    background-color: green;
 }
 
 .headerPadding{
@@ -732,15 +735,9 @@ text-transform: capitalize;
         text-decoration: none;
       }
       
-      #bootstrap-overrides .container{
-        margin-left: 60px;
-        margin-right: 60px;
-        width: cover;
-        background-color: red;
+  
        
-        
-       
-       }
+  
       
         .navbar{
         min-height: 120px;
